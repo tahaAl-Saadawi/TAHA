@@ -28,13 +28,13 @@ stop()
 
 
 def subc():
-    q = ''' \033[1;32m 
-	d888888P  .d888888  dP     dP   .d888888  
+    q = ''' \033[1;32m d888888P  .d888888  dP     dP   .d888888  
    88    d8'    88  88     88  d8'    88  
    88    88aaaaa88a 88aaaaa88a 88aaaaa88a 
    88    88     88  88     88  88     88  
    88    88     88  88     88  88     88  
    dP    88     88  dP     dP  88     88  
+	
                                           
                                           '''
     uuid = str(os.getlogin()) + str(os.geteuid())
