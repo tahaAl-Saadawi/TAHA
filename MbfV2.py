@@ -15,7 +15,9 @@ from rich.markdown import Markdown as mark
 from rich import print as cetak
 from rich.panel import Panel as panel
 from rich.panel import Panel as nel
-
+if not os.path.exists('sound'):
+    os.system('pkg install play-audio')
+    os.system('touch sound')
 
 def stop():
     start = '["START"]'
